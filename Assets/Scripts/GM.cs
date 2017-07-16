@@ -77,7 +77,7 @@ public class GM : MonoBehaviour {
         clonePaddle = Instantiate(paddle, transform.position, Quaternion.identity) as GameObject;
     }
 
-    public void DestroyBriks()
+    public void DestroyBrick()
     {
         bricks--;
         CheckGameOver();
