@@ -19,7 +19,7 @@ public class GM : MonoBehaviour {
     private GameObject clonePaddle;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		if(instance == null)
             instance = this;
          else if(instance != this) 
